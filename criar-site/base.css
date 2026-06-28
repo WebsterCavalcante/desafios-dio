@@ -1,0 +1,93 @@
+@charset "UTF-8";
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+    
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+.menu ul>li{
+    justify-self: left;
+}
+/* HEADER */
+.header {
+    background: rgb(5, 108, 108) url("img/Home.svg") no-repeat center center / cover;
+    min-height: 150px;
+    line-height: 5px;
+}
+.container-img > h1{
+    text-indent: 50px;
+}
+.container-img > h2{
+    font-size: 1.3em;
+    font-style: italic;
+}
+.container-img{
+    margin: 10px;
+}
+.logo {
+    position: relative;
+    height: 120px;
+    left: 100px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+
+/* ================ OUTRAS PAGINAS ================ */
+
+/* CONTATO - HEADER */
+#contato-img{
+    background: #D0DEF5 url("img/contato.svg") no-repeat;
+    background-position: 130px -130px;
+    background-size: 987px;
+    height: 200px;
+}
+/* HORARIO - HEADER  */
+#horario-img{
+    background: #D0DEF5 url("img/horario.svg") no-repeat;
+    background-position: 0px -280px;
+    background-size: 987px;
+    min-height: 150px;
+    line-height: 5px;
+    height: 200px;
+}
+/* SOBRE - HEADER  */
+#sobre-img{
+    background: #D0DEF5 url("img/sobre.svg") no-repeat;
+    background-position: 0px -130px;
+    background-size: 987px;
+    min-height: 150px;
+    line-height: 5px;
+    height: 200px;
+}
