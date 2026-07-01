@@ -1,39 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template - Utilizar como modelo</title>
-    <link rel="stylesheet" href="base.css">
-</head>
-<body>
-    <div class="wrapper" >
-        <div class="menu" >
-            <!-- Aqui vai o seu menu -->
-            <ul>
-                <li><a href="#">Página Principal</a></li>
-                <li><a href="#">Sobre a clínica</a></li>
-                <li><a href="#">Horário de Atendimento</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+    <link rel="stylesheet" href="base.css" />
+    <script
+      src="https://kit.fontawesome.com/3c5181eee3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <h1>Menu</h1>
+        <ul>
+          <li><a href="index.html">Página Principal</a></li>
+          <li><a href="sobre.html">Sobre a clínica</a></li>
+          <li><a href="horario.html">Horário de Atendimento</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="header" id="horario-img">
+          <!-- Aqui vai o seu header -->
+          
         </div>
-        <div class="main">
-            <div class="header" id="horario-img">
-                <!-- Aqui vai o seu header -->
-                
-            </div>
-    
-            <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
-            </div>
-    
-            <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
-            </div>
+
+        <div class="content">
+          <!-- Aqui vai o seu conteúdo -->
+          <h2>Nossos Serviços</h2>
+          <p>Para garantir um cuidado completo, a Clínica Paulo Cintura oferece serviços estruturados em quatro pilares fundamentais:</p>
+          <ul>
+            <li><strong>Clínica Geral:</strong> O ponto de partida para a sua saúde. Nossos clínicos realizam diagnósticos precisos, check-ups preventivos e orientam você no direcionamento para os melhores tratamentos.</li>
+
+            <li><strong>Pediatria:</strong> Um olhar atento, carinhoso e especializado para o crescimento e desenvolvimento saudável dos pequenos, desde os primeiros dias de vida até a adolescência.</li>
+
+            <li><strong>Psicologia:</strong> Apoio emocional e saúde mental preventiva. Oferecemos um espaço seguro e acolhedor para o autoconhecimento, superação de desafios e promoção da qualidade de vida.</li>
+
+            <li><strong>Oftalmologia:</strong> Cuidados essenciais para a sua visão. Realizamos exames de rotina, diagnósticos e tratamentos para garantir que você e sua família enxerguem o mundo com total clareza e nitidez.</li>
+          </ul>
+          <table id="tabela-horarios">
+            <thead>
+              <tr>
+                <th>Serviços</th>
+                <th>Segunda a Sexta</th>
+                <th>Sabaddo</th>
+                <th>Feriado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Clínica geral</td>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 14h</td>
+              </tr>
+              <tr>
+                <td>Psicologia</td>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 14h</td>
+              </tr>
+              <tr>
+                <td>Pediatria</td>
+                <td>08h - 19h</td>
+                <td>08h - 18h</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Oftalmologia</td>
+                <td>08h - 19h</td>
+                <td>08h - 18h</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
+        <div class="footer">
+          <!-- Aqui vai o seu rodapé -->
+          <p>
+            <i class="fa-brands fa-whatsapp"></i>4002-8922 <br />
+            <i class="fa-solid fa-envelope"></i>Paulo.Cintura@gmail.com
+          </p>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -21,8 +21,9 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #bff5bf;
     padding: 10px 20px 0px;
+    text-align: center;
     
 }
 .menu ul{
@@ -30,7 +31,18 @@ body {
     padding: 0;
 }
 .menu ul>li{
-    justify-self: left;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color .5s;
+}
+.menu ul>li:hover{
+    background-color: lightgreen;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
 }
 /* HEADER */
 .header {
@@ -59,9 +71,22 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+#tabela-horarios{
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+    justify-self: center;
+}
+#tabela-horarios tr > td{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(0, 0, 0);
+    padding-left: 20px;
+    color: gray;
 }
 
 /* ================ OUTRAS PAGINAS ================ */
